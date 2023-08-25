@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user management</title>
+    <style>
+        #userdata{
+            display: flex;
+            flex-direction: column;
+
+        }
+        input{
+            width: 200px;
+            height: 20px;
+             margin: 10px;
+        }
+        button{
+            width: 100px;
+            height: 20px;
+            margin: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="userdata">
+        <input type="text" id="username" placeholder ="username"/>
+        <input type="email" id="email" placeholder="email">
+        <button onClick="valiadteUser()"> Submit</button>
+    </div>
+    <div id="dataDisplay"></div>
+    <script src="user.js"></script>
+    
+</body>
+</html>
